@@ -41,9 +41,30 @@ class Fila:
         print("Prox:",nodoAtual.proximo)
         print("--------------------------")
 
+    def tamanho(self):
+    tamanho = 0
+    nodoAtual = self.pri
+        if nodoAtual is None:
+            return
+        while nodoAtual.proximo is not None:
+            tamanho += 1
+            nodoAtual = nodoAtual.proximo
+        tamanho += 1
+        print("A fila tem ", tamanho,' elementos')  
+
 fila = Fila()
 fila.adicionar(1)
 fila.adicionar(2)
 fila.adicionar(3)
+fila.add_prioridade(4)
 fila.remover()
 fila.print()
+fila.tamanho()
+ 
+
+def trocar(self, i1, i2):
+
+def add_prioridade(self, valor):
+    novoNodo.prp
+
+def remover_valor(self, valor):
