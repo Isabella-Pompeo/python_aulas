@@ -29,3 +29,15 @@ class LISTA_SIMPLES
         else
             NovoNodo.prox = self.pri
             self.pri = NovoNodo
+
+    def AddApos(self, NovoValor, ValorBusca)
+
+        else:
+            nA = self.pri
+             
+            while nA.prox is not self.ult:
+                if nA.valor == valor.busca:
+                    NovoNodo.prox = nA.prox
+                    nA.paox = NovoNodo
+                nA = nA.prox
+            self.Add
